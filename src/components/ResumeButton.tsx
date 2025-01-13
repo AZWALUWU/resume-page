@@ -7,7 +7,7 @@ import { FaFileDownload } from 'react-icons/fa';
 const ResumeButton: React.FC = () => {
   return (
     <a
-      href="/Azwa Luwu RESUME.pdf"
+      href="/CV-ATS-AZWA.docx"
       download
       className="flex items-center bg-[#111111] hover:bg-white text-white hover:text-[#111111] px-3 py-1 rounded transition duration-300 mr-4 border border-white"
     >

@@ -14,69 +14,42 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "Blog Platform",
+    description: [
+      "A simple blogging platform with essential CRUD functionality, allowing users to create, edit, delete, and view blog posts.",
+      "Implemented an advanced analytics engine for tracking user engagement, popular posts, and trends in blog interactions.",
+      "Added offline mode with seamless data synchronization, and integrated third-party APIs for enhanced user experience and content management."
+    ],
+    technologies: ["MongoDB", "Express", "React.js", "Node.js", "ClerkAuth"],
+    image: "/homegame-project.jpg",
+    githubLink: "https://github.com/AZWALUWU/Blog-Platform",
+    liveLink: "https://aza-blog-app.vercel.app"
+  },  
+  {
     name: "Threads Clone",
     description: [
-      "Social Media Clone App, Description: A simple social media cloneapplication with essential CRUD functionality.",
-      "Created an advanced analytics engine providing insights into gameplay, win rates, and improvement areas",
-      "Implemented offline mode with data synchronization and integrated third-party APIs for odds calculation"
+      "Built a Threads-inspired social media clone with core features like user authentication, post creation, and feed management.",
+      "Developed a responsive and modern UI using React.js, and optimized backend services with Node.js and Express.",
+      "Implemented real-time updates for posts and interactions using Socket.io for a seamless user experience."
     ],
-    technologies: ["MongoDB", "Express", "React.js", "Node.js"],
-    image: "/homegame-project.jpg",
-    githubLink: "https://github.com/yourusername/homegame",
-    liveLink: "https://homegame-app.com"
-  },
-  {
-    name: "BrewPoints: Cafe Loyalty App",
-    description: [
-      "Developed a full-stack loyalty app solution for independent cafes, featuring React Native mobile apps, Node.js backend with GraphQL API, and MongoDB database",
-      "Integrated with various Point of Sale (POS) systems using a flexible adapter pattern",
-      "Implemented real-time order tracking and notifications using Socket.io",
-      "Designed a customizable loyalty program system with analytics dashboard for cafe owners"
-    ],
-    technologies: ["React Native", "Expo", "Node.js", "GraphQL", "MongoDB"],
+    technologies: ["MongoDB", "Express", "React.js", "Node.js", "ClerkAuth"],
     image: "/cafe-loyalty-project.jpg",
-    githubLink: "https://github.com/yourusername/cafe-loyalty",
-    liveLink: "https://cafeloyalty-demo.com"
+    githubLink: "https://github.com/AZWALUWU/Thread-Clone",
+    liveLink: "https://aza-thread-clone.vercel.app"
   },
   {
-    name: "Quantum-Resistant Password Manager",
+    name: "E-Commerce Apps",
     description: [
-      "Developed a high-performance, cryptographically secure password manager using Rust and post-quantum algorithms",
-      "Designed a zero-knowledge architecture, enhancing user privacy and security",
-      "Utilized efficient data structures (B-trees) for optimized password storage and retrieval",
-      "Implemented advanced features including 2FA, secure password sharing, and encrypted backups"
+      "Built a feature-rich e-commerce application using the MERN stack with a focus on scalability and performance.",
+      "Implemented a secure payment system using Stripe, enabling seamless transactions with support for multiple payment methods.",
+      "Integrated Clerk for user authentication, providing a seamless login and account management experience.",
+      "Designed advanced product search and filtering features, personalized recommendations, and a responsive user interface."
     ],
-    technologies: ["Rust", "Post-Quantum Cryptography"],
-    image: "/password-manager-project.jpg",
-    githubLink: "https://github.com/yourusername/quantum-pass",
-    liveLink: "https://quantum-pass-demo.com"
-  },
-  {
-    name: "InvoiceNinja: Freelancer Invoicing App",
-    description: [
-      "Developed a user-friendly invoicing application tailored for freelancers",
-      "Implemented features such as invoice generation, expense tracking, and client management",
-      "Integrated payment gateways for seamless online payments",
-      "Created insightful financial reports and dashboards for business analysis"
-    ],
-    technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-    image: "/invoice-ninja-project.jpg",
-    githubLink: "https://github.com/yourusername/invoice-ninja",
-    liveLink: "https://invoice-ninja-demo.com"
-  },
-  {
-    name: "FitQuest: Interactive Workout Companion",
-    description: [
-      "Built a gamified workout application to make fitness routines more engaging",
-      "Designed personalized workout plans based on user goals and fitness levels",
-      "Implemented progress tracking and achievement system to boost user motivation",
-      "Integrated with wearable devices for real-time workout data synchronization"
-    ],
-    technologies: ["React Native", "Firebase", "TensorFlow.js"],
-    image: "/fitquest-project.jpg",
-    githubLink: "https://github.com/yourusername/fitquest",
-    liveLink: "https://fitquest-demo.com"
-  }
+    technologies: ["MongoDB", "Express", "React.js", "Node.js", "Stripe API", "Clerk"],
+    image: "/ecommerce-app-project.jpg",
+    githubLink: "https://github.com/AZWALUWU/ECommerce-Mobile-Apps",
+    liveLink: "https://aza-ecommerce.vercel.app"
+  }  
 ];
 
 const Projects: React.FC = () => {
