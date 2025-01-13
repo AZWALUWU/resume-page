@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <header>
       <div className="mb-4 relative w-[150px] h-[150px] overflow-hidden rounded-full">
         <Image
-          src="/profile2.jpg" // Replace with the actual path to your image
+          src="/a456ab07-efe8-4e5f-8838-a93258b497c7.jpg" // Replace with the actual path to your image
           alt="Azwa Luwu"
           layout="fill"
           objectFit="cover"
